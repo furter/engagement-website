@@ -1,0 +1,140 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'cambaybold';
+    src: url('fonts/cambay-bold-webfont.woff2') format('woff2'),
+         url('fonts/cambay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambaybold_italic';
+    src: url('fonts/cambay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/cambay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambayitalic';
+    src: url('fonts/cambay-italic-webfont.woff2') format('woff2'),
+         url('fonts/cambay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambayregular';
+    src: url('fonts/cambay-regular-webfont.woff2') format('woff2'),
+         url('fonts/cambay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'cambaybold';
+}
+.menu {
+    position: fixed;
+    z-index: 1000;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-content {
+    font-size: 90px;
+    line-height: 85px;
+}
+.main-content a {
+    text-decoration: none;
+    color: black;
+}
+.category {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.grid-item {
+    height: 70vh;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+.one-third {
+    width: 33%;
+}
+.two-third {
+    width: 67%;
+}
+.whole {
+    width: 100%;
+}
+.red {
+    background-color: #ffb1b1;
+}
+.blue {
+    background-color: #9c9cea;
+}
+.yellow {
+    background-color: #ffff96;
+}
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 800px) {
+    .grid-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* IMPRESSION */
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}
