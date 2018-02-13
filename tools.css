@@ -52,58 +52,36 @@ div {
 }
 
 body {
-    font-family: 'cambaybold';
-}
-.menu {
-    position: fixed;
-    z-index: 1000;
-    top: 10px;
-    left: 15px;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.menu li {
-    display: inline-block;
-    margin-right: 20px;
-}
-.main-content {
-    font-size: 90px;
-    line-height: 85px;
-}
-.main-content a {
-    text-decoration: none;
-    color: black;
-}
-.category {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.grid-item {
-    height: 70vh;
-    float: left;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-}
-.one-third {
-    width: 33%;
-}
-.two-third {
-    width: 67%;
-}
-.whole {
-    width: 100%;
-}
-.red {
-    background-color: #ffb1b1;
-}
-.blue {
-    background-color: #9c9cea;
-}
-.yellow {
     background-color: #ffff96;
 }
+.content-whole-page {
+    width: 100%;
+    margin: 80px 20px 20px 20px;
+}
+.tool {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px 0 0;
+    background-color: #9c9cea;
+    padding: 20px;
+    max-height: 40vh;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+}
+.no-max {
+    max-height: none;
+}
+.tool-title {
+    margin-bottom: 10px;
+}
+.tool-link {
+}
+.tool-content {
+}
+.tool-document {
+}
+
 
 
 /* RESPONSIVE */
