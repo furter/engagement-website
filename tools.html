@@ -7,59 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="site-base.css">
+    <link rel="stylesheet" href="tools.css">
     <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
-    <script src="scripts/masonry.pkgd.min.js"></script>
 </head>
 <body>
 <ul class="menu">
-    <li>about</li>
-    <li>statements</li>
-    <li>how to act</li>
-    <li>words</li>
+    <li><a href="site-base.html">ENGAGEMENT</a></li>
+    <li><a href="statement.html">statement</a></li>
+    <li><a href="signatures.html">signatures</a></li>
+    <li><a href="tools.html">tools</a></li>
+    <li><a href="contact.html">about/contact</a></li>
 </ul>
-<div class="grid">
-    <div class="grid-item red one-third">
-        <p class="category">.</p>
-        <p class="main-content">40%</p>
+<div class="content-whole-page">
+    <p class="title">TOOLS</p>
+    <div class="tool tool-content">
+        <p class="tool-title">What to do if you are employed?</p>
+        <p class="text">Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla Blabla bla bla </p>
     </div>
-    <div class="grid-item blue two-third">
-        <p class="category">.</p>
-        <p class="main-content"><a href="about.html">ENGAGEMENT<br>Anti-sexism in the arts</a></p>
+    <div class="tool tool-document">
+        <p class="tool-title">Standard letter</p>
+        <p class="text">A standard letter that you can download, modify and send.</p>
     </div>
-    <div class="grid-item yellow two-third">
-        <p class="category">statement</p>
-        <p class="main-content"><a href="artist.html">As an artist</a></p>
+    <div class="tool tool-link">
+        <p class="tool-title">Terminology</p>
+        <p class="text">A list of useful terms and words…</p>
+        <p>
+            <a href="http://bafe.fr/">http://bafe.fr/</a>
+        </p>
     </div>
-    <div class="grid-item red one-third">
-        <p class="category">how to act</p>
-        <p class="main-content">DIY TOOLS</p>
+    <div class="tool tool-link">
+        <p class="tool-title">FR database of feminist resources</p>
+        <p>
+            <a href="http://bafe.fr/">http://bafe.fr/</a>
+        </p>
     </div>
-    <div class="grid-item blue one-third"></div>
-    <div class="grid-item yellow two-third">
-        <p class="category">statement</p>
-        <p class="main-content">As an organisation, institute, vzw/asbl …</p>
-    </div>
-    <div class="grid-item yellow two-third">
-        <p class="category">statement</p>
-        <p class="main-content"><a href="artist.html">As …</a></p>
-    </div>
-    <div class="grid-item red one-third">
-        <p class="category">.</p>
-        <p class="main-content"></p>
-    </div>
-    <div class="grid-item blue one-third"></div>
-    <div class="grid-item yellow two-third">
-        <p class="category">statement</p>
-        <p class="main-content">As …</p>
-    </div>
-    <div class="grid-item red whole"></div>
 </div>
+
 
 <!-- DANS SCRIPTS METTEZ VOS SCRIPTS :)-->
     <script>
         /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
-
+        $(".tool").click(function () {
+           $(this).toggleClass("no-max");
+        });
     </script>
 
 </body>
