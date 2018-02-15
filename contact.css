@@ -53,11 +53,20 @@ div {
 
 body {
     font-family: 'cambaybold';
-    background-color: #ffff96;
-    background-image: url(tools-background.svg);
+/*    background-color: #ffff96;*/
+    background: linear-gradient(90deg, white 0%, #1fc8db 100%);
+/*    background-image: url(tools-background.svg);*/
     background-size: cover;
 }
-
+.triangle-bkg-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-right: 100vh solid transparent;
+    border-top: 100vh solid #ffff96;
+    z-index: -1;
+}
 
 /* RESPONSIVE */
 

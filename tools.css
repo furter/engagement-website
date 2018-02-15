@@ -63,19 +63,27 @@ body {
     display: inline-block;
     vertical-align: top;
     margin: 20px 20px 0 0;
-    background-color: #9c9cea;
-    padding: 20px;
-    max-height: 40vh;
-    overflow-y: auto;
-    text-overflow: ellipsis;
 }
 .no-max {
     max-height: none;
 }
 .tool-title {
     margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 33px;
+}
+.tool .text {
+    background-color: #9c9cea;
+    padding: 20px;
+    max-height: 40vh;
+    overflow-y: auto;
+    text-overflow: ellipsis;
 }
 .tool-link {
+    border-radius: 50%;
+    text-align: center;
+    height: 30vw;
 }
 .tool-content {
 }

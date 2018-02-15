@@ -105,19 +105,27 @@ a, a:visited, a:focus {
     width: 100%;
 }
 .red {
-    background-color: #ffb1b1;
+    background: linear-gradient(90deg, white 0%, #1fc8db 100%);
+    /* background-color: #ffb1b1; */
 }
 .blue {
-    background-color: #9c9cea;
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+    /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 .yellow {
-    background-color: #ffff96;
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+    /* background-color: #ffff96; */
 }
 .triangle {
     background-image: url(triangle-background.svg);
     background-size: 100% 100%;
 }
-
+.shape2 {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    border-left: 60px solid transparent; border-right: 60px solid transparent; border-bottom: 100px solid darkblue;
+}
 
 .content-left {
     width: 50%;
