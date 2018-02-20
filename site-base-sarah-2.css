@@ -76,7 +76,7 @@ a, a:visited, a:focus {
     font-weight: 700;
     text-transform: uppercase;
     padding: 2px 7px;
-    /*background-color: yellow;*/
+    background-color: yellow;
 }
 .menu li {
     display: inline-block;
@@ -87,13 +87,13 @@ a, a:visited, a:focus {
 
 }
 .main-content {
-  font-size: 62px;
-  line-height: 61px;
-        /*font-weight: bold;*/
-        font-family: 'Fredoka One', cursive;
+  font-size: 75px;
+  line-height: 84px;
+        font-weight: bold;
+        /*font-family: 'Fredoka One', cursive;*/
         /*font-family: 'Armata', sans-serif;*/
-        /*font-family: 'Signika', sans-serif;*/
-text-transform: uppercase;
+        font-family: 'Signika', sans-serif;
+
 }
 .main-content a {
     text-decoration: none;
@@ -105,7 +105,7 @@ text-transform: uppercase;
     margin-bottom: 10px;
 }
 .facts .category + .main-content {
-  font-size: 38px;
+    font-size: 35px;
   line-height: 36px;
 }
 .facts {
@@ -252,7 +252,6 @@ svg {
   height: 80%;
   margin: 10%;
 }
-
 
 .content-left {
     width: 50%;
