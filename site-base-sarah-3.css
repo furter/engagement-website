@@ -76,7 +76,7 @@ a, a:visited, a:focus {
     font-weight: 700;
     text-transform: uppercase;
     padding: 2px 7px;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .menu li {
     display: inline-block;
