@@ -138,6 +138,15 @@ a, a:visited, a:focus {
     display: inline-block;
     border-left: 60px solid transparent; border-right: 60px solid transparent; border-bottom: 100px solid darkblue;
 }
+.move1 {
+    animation: move1 100s infinite;
+}
+@keyframes move1 {
+    0%       { transform: translatex(300px)}
+    10%      { transform: translatex(0px) }
+    100%     { transform: translatex(300px) }
+}
+
 
 .content-left {
     width: 50%;
