@@ -127,26 +127,77 @@ a, a:visited, a:focus {
     display: inline-block;
     margin-right: 10px;
 }
+.square {
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.triangle-shape {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid darkblue;
+}
 .big {
     width: 250px;
     height: 250px;
 }
-
-.shape2 {
-    width: 120px;
-    height: 120px;
-    display: inline-block;
-    border-left: 60px solid transparent; border-right: 60px solid transparent; border-bottom: 100px solid darkblue;
-}
+/* ANIMATIONS */
 .move1 {
-    animation: move1 100s infinite;
+    animation: move-me 10s;
 }
-@keyframes move1 {
+.move2 {
+    animation: move-me 20s;
+}
+.move3 {
+    animation: move-me 30s;
+}
+@-webkit-keyframes move-me {
     0%       { transform: translatex(300px)}
-    10%      { transform: translatex(0px) }
-    100%     { transform: translatex(300px) }
+    100%     { transform: translatex(0px) }
+}
+@keyframes move-me {
+    0%       { transform: translatex(300px)}
+    100%     { transform: translatex(0px) }
 }
 
+.breathe {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: breathe 3s infinite linear alternate-reverse;
+    -moz-animation: breathe 3s infinite linear alternate-reverse;
+    animation: breathe 3s infinite linear alternate-reverse;
+}
+@-webkit-keyframes breathe {
+  to {-webkit-transform: scale(1.2);}
+}
+@-moz-keyframes breathe {
+  to {-moz-transform: scale(1.2);}
+}
+@keyframes breathe {
+  to {transform: scale(1.2);}
+}
+.spin {
+    animation: spin 30s;
+}
+@-webkit-keyframes spin {
+    0%       { transform: rotate(0deg)}
+    100%     { transform: rotate(360deg) }
+}
+@keyframes move {
+    0%       { transform: rotate(0deg)}
+    100%     { transform: rotate(360deg) }
+}
+
+svg {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
 
 .content-left {
     width: 50%;
