@@ -25,7 +25,6 @@ div {
          url('fonts/cambay-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'cambaybold_italic';
@@ -33,7 +32,6 @@ div {
          url('fonts/cambay-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'cambayitalic';
@@ -41,7 +39,6 @@ div {
          url('fonts/cambay-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'cambayregular';
@@ -50,10 +47,23 @@ div {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'signika';
+    src: url('fonts/signika-bold-webfont.woff2') format('woff2'),
+         url('fonts/signika-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: 'cambaybold';
     font-size: 20px;
+}
+.alt-font {
+    cursor: pointer;
+}
+.font-alt {
+    font-family: 'signika';
 }
 a, a:visited, a:focus {
     text-decoration: none;
@@ -84,6 +94,13 @@ h2 {
 .main-content {
     font-size: 90px;
     line-height: 85px;
+}
+.main-content-alt {
+    font-size: 70px;
+    line-height: 75px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 80px;
 }
 .main-content a {
     text-decoration: none;
@@ -255,10 +272,21 @@ svg {
     width: 33%;
     padding: 20px;
     padding-top: 80px;
-    top: 70vh;
+    top: 40px;
 }
 li {
   list-style: none;
+}
+
+/* CONTACT */
+.triangle-bkg-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-right: 150vh solid transparent;
+    border-top: 100vh solid #ffff96;
+    z-index: -1;
 }
 
 /* RESPONSIVE */

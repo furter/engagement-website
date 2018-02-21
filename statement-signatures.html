@@ -19,10 +19,8 @@
         <li><a href="tools.html">tools</a></li>
         <li><a href="contact.html">about/contact</a></li>
     </ul>
-
-    <div class="grid-item lightyellow one-third" style="padding: 0; position: fixed; z-index: -1;">
-
-                <div class="circle big breathe" style="background-color: lightgrey; position: absolute; bottom: 80px; right: 80px;"></div>
+    <div style="position: absolute; right: 5px; top: 5px; z-index: 1000;" class="alt-font">A</div>
+    <div class="grid-item lightyellow one-third" style="padding: 0; position: fixed; z-index: -1; height: 100vh;">
     </div>
     <div style="position: fixed; right: 0; width: 67%; height: 100vh; z-index: -1; background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%)"></div>
 
@@ -100,7 +98,10 @@
 <!-- DANS SCRIPTS METTEZ VOS SCRIPTS :)-->
     <script>
         /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
-
+        $('.alt-font').click(function() {
+          $('body').toggleClass("font-alt");
+          $('h2').toggleClass("font-alt");
+        });
     </script>
 
 </body>

@@ -11,27 +11,18 @@
     <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
 </head>
-<body>
+<body style="background: linear-gradient(120deg, lightblue 50%, white 100%)">
 <ul class="menu">
     <li><a href="site-base.html">ENGAGEMENT</a></li>
     <li><a href="statement-signatures.html">statement</a></li>
-    <li><a href="statement-signatures.html">signatures</a></li>
+    <li><a href="signatures.html">signatures</a></li>
     <li><a href="tools.html">tools</a></li>
     <li><a href="contact.html">about/contact</a></li>
 </ul>
 
+<div style="position: absolute; right: 5px; top: 5px; z-index: 1000;" class="alt-font">A</div>
+
 <div class="grid-item lightyellow one-third" style="padding: 0; position: fixed; z-index: -1;">
-    <div style="position: absolute; top: 40px; left: 40px;">
-        <div class="circle" style="background-color: darkblue;"></div>
-        <div class="square red" style=""></div>
-        <div class="circle red" style=""></div>
-        <div class="circle red" style=""></div>
-        <div class="circle" style="background-color: darkblue;"></div>
-        <div class="triangle-shape" style=""></div>
-        <div class="square" style="background-color: darkblue;"></div>
-        <div class="circle red" style=""></div>
-        <div class="circle red" style=""></div>
-    </div>
 </div>
 <div style="position: fixed; right: 0; width: 67%; height: 100vh; z-index: -1; background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%)"></div>
 
@@ -71,6 +62,10 @@
         /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
         $(".tool").click(function () {
            $(this).toggleClass("no-max");
+        });
+        $('.alt-font').click(function() {
+          $('body').toggleClass("font-alt");
+          $('h2').toggleClass("font-alt");
         });
     </script>
 

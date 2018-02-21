@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="site-base.css">
-    <link rel="stylesheet" href="contact.css">
     <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
 </head>
-<body>
-    <ul class="menu">
+<body style="background: linear-gradient(90deg, white 0%, #1fc8db 100%);">
+    <ul class="menu" style="width: auto">
         <li><a href="site-base.html">ENGAGEMENT</a></li>
         <li><a href="statement-signatures.html">statement</a></li>
-        <li><a href="statement-signatures.html">signatures</a></li>
+        <li><a href="signatures.html">signatures</a></li>
         <li><a href="tools.html">tools</a></li>
         <li><a href="contact.html">about/contact</a></li>
     </ul>
+    <div style="position: absolute; right: 5px; top: 5px; z-index: 1000;" class="alt-font">A</div>
     <div class="triangle-bkg-contact"></div>
 <div class="content-left">
     <h2>ABOUT</h2>
@@ -33,7 +33,10 @@
 <!-- DANS SCRIPTS METTEZ VOS SCRIPTS :)-->
     <script>
         /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
-
+        $('.alt-font').click(function() {
+          $('body').toggleClass("font-alt");
+          $('h2').toggleClass("font-alt");
+        });
     </script>
 
 </body>
