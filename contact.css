@@ -58,12 +58,15 @@ body {
 /*    background-image: url(tools-background.svg);*/
     background-size: cover;
 }
+.menu {
+    width: auto;
+}
 .triangle-bkg-contact {
     position: absolute;
     top: 0;
     left: 0;
     display: inline-block;
-    border-right: 100vh solid transparent;
+    border-right: 150vh solid transparent;
     border-top: 100vh solid #ffff96;
     z-index: -1;
 }

@@ -52,25 +52,35 @@ div {
 }
 
 body {
-    background: linear-gradient(90deg, #ffff96 0%, white 100%);
 }
 .content-whole-page {
     width: 100%;
     margin: 80px 20px 20px 20px;
 }
-.tool:nth-child(even) {
+.tool a {
+    text-decoration: underline;
+}
+/*
+.tool {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+}*/
+/*.tool:nth-child(even) {
     background: linear-gradient(90deg, #ffff96 0%, #ffb1b1 100%);
     padding: 20px;
 }
 .tool:nth-child(odd) {
     background: linear-gradient(90deg, #ffb1b1 0%, #ffff96 100%);
     padding: 20px;
-}
+}*/
 .no-max {
     max-height: none;
 }
 .tool-title {
-    margin-bottom: 10px;
+    margin: 30px 0 10px 0;
     font-size: 28px;
     line-height: 33px;
 }
