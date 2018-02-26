@@ -14,12 +14,6 @@ div {
 
 /* liens vers la typo */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-}
-@font-face {
     font-family: 'cambaybold';
     src: url('fonts/cambay-bold-webfont.woff2') format('woff2'),
          url('fonts/cambay-bold-webfont.woff') format('woff');
@@ -54,16 +48,247 @@ div {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'khulabold';
+    src: url('fonts/khula-bold-webfont.woff2') format('woff2'),
+         url('fonts/khula-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'khulaextrabold';
+    src: url('fonts/khula-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/khula-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'khulalight';
+    src: url('fonts/khula-light-webfont.woff2') format('woff2'),
+         url('fonts/khula-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'khularegular';
+    src: url('fonts/khula-regular-webfont.woff2') format('woff2'),
+         url('fonts/khula-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'khulasemibold';
+    src: url('fonts/khula-semibold-webfont.woff2') format('woff2'),
+         url('fonts/khula-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tauriregular';
+    src: url('fonts/tauri-regular-webfont.woff2') format('woff2'),
+         url('fonts/tauri-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenobold';
+    src: url('fonts/truenobd-webfont.woff2') format('woff2'),
+         url('fonts/truenobd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenobold_italic';
+    src: url('fonts/truenobdit-webfont.woff2') format('woff2'),
+         url('fonts/truenobdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenobold_outline';
+    src: url('fonts/truenobdol-webfont.woff2') format('woff2'),
+         url('fonts/truenobdol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenobold_outline_italic';
+    src: url('fonts/truenobdolit-webfont.woff2') format('woff2'),
+         url('fonts/truenobdolit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoblack';
+    src: url('fonts/truenoblk-webfont.woff2') format('woff2'),
+         url('fonts/truenoblk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoblack_italic';
+    src: url('fonts/truenoblkit-webfont.woff2') format('woff2'),
+         url('fonts/truenoblkit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoblack_outline';
+    src: url('fonts/truenoblkol-webfont.woff2') format('woff2'),
+         url('fonts/truenoblkol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoblack_outline_italic';
+    src: url('fonts/truenoblkolit-webfont.woff2') format('woff2'),
+         url('fonts/truenoblkolit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoextrabold';
+    src: url('fonts/truenoexbd-webfont.woff2') format('woff2'),
+         url('fonts/truenoexbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoextrabold_italic';
+    src: url('fonts/truenoexbdit-webfont.woff2') format('woff2'),
+         url('fonts/truenoexbdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoextrabold_outline';
+    src: url('fonts/truenoexbdol-webfont.woff2') format('woff2'),
+         url('fonts/truenoexbdol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoXBdoutlineIt';
+    src: url('fonts/truenoexbdolit-webfont.woff2') format('woff2'),
+         url('fonts/truenoexbdolit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenolight';
+    src: url('fonts/truenolt-webfont.woff2') format('woff2'),
+         url('fonts/truenolt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenolight_italic';
+    src: url('fonts/truenoltit-webfont.woff2') format('woff2'),
+         url('fonts/truenoltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoregular';
+    src: url('fonts/truenorg-webfont.woff2') format('woff2'),
+         url('fonts/truenorg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'truenoregular_italic';
+    src: url('fonts/truenorgit-webfont.woff2') format('woff2'),
+         url('fonts/truenorgit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'truenosemibold';
+    src: url('fonts/truenosbd-webfont.woff2') format('woff2'),
+         url('fonts/truenosbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenosemibold_italic';
+    src: url('fonts/truenosbdit-webfont.woff2') format('woff2'),
+         url('fonts/truenosbdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoultralight';
+    src: url('fonts/truenoultlt-webfont.woff2') format('woff2'),
+         url('fonts/truenoultlt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'truenoultralight_italic';
+    src: url('fonts/truenoultltit-webfont.woff2') format('woff2'),
+         url('fonts/truenoultltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('fonts/pt_sans-web-bold-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-web-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pt_sansbold_italic';
+    src: url('fonts/pt_sans-web-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-web-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansitalic';
+    src: url('fonts/pt_sans-web-italic-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-web-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('fonts/pt_sans-web-regular-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-web-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sans_captionbold';
+    src: url('fonts/pt_sans-caption-web-bold-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-caption-web-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sans_captionregular';
+    src: url('fonts/pt_sans-caption-web-regular-webfont.woff2') format('woff2'),
+         url('fonts/pt_sans-caption-web-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-    font-family: 'cambaybold';
+    font-family: 'junction'; /* pt_sans_captionregular truenoregular khularegular tauriregular */
+    font-weight: bold;
+    /* text-transform: uppercase; */
     font-size: 20px;
 }
 .alt-font {
     cursor: pointer;
 }
 .font-alt {
-    font-family: 'signika';
+    font-family: 'cambaybold';
     letter-spacing: 1px;
 }
 a, a:visited, a:focus {
@@ -93,8 +318,9 @@ h2 {
     margin-right: 30px;
 }
 .main-content {
-    font-size: 90px;
-    line-height: 85px;
+    font-size: 60px;
+    line-height:70px;
+    text-transform: uppercase;
 }
 .main-content-alt {
     font-size: 70px;
