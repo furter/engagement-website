@@ -278,22 +278,59 @@ div {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'hindbold';
+    src: url('fonts/hind-bold-webfont.woff2') format('woff2'),
+         url('fonts/hind-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindlight';
+    src: url('fonts/hind-light-webfont.woff2') format('woff2'),
+         url('fonts/hind-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindmedium';
+    src: url('fonts/hind-medium-webfont.woff2') format('woff2'),
+         url('fonts/hind-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindregular';
+    src: url('fonts/hind-regular-webfont.woff2') format('woff2'),
+         url('fonts/hind-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindsemibold';
+    src: url('fonts/hind-semibold-webfont.woff2') format('woff2'),
+         url('fonts/hind-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'junction'; /* pt_sans_captionregular truenoregular khularegular tauriregular */
-    font-weight: bold;
+    font-family: 'hindsemibold'; /* pt_sans_captionregular truenoregular khularegular tauriregular */
+    /* font-weight: bold; */
     /* text-transform: uppercase; */
     font-size: 20px;
+    color: darkblue;
 }
 .alt-font {
     cursor: pointer;
 }
 .font-alt {
-    font-family: 'cambaybold';
+    font-family: 'junction';
     letter-spacing: 1px;
 }
 a, a:visited, a:focus {
     text-decoration: none;
-    color: black;
+    color: darkblue;
 }
 h2 {
     font-size: 60px;
@@ -318,20 +355,18 @@ h2 {
     margin-right: 30px;
 }
 .main-content {
-    font-size: 60px;
-    line-height:70px;
-    text-transform: uppercase;
+    font-size: 65px;
+    line-height:74px;
 }
 .main-content-alt {
-    font-size: 70px;
-    line-height: 75px;
-    font-weight: normal;
-    text-transform: uppercase;
+    font-size: 63px;
+    line-height:73px;
+    font-weight: bold;
     margin-bottom: 80px;
 }
 .main-content a {
     text-decoration: none;
-    color: black;
+    color: darkblue;
 }
 .category {
     font-size: 20px;
@@ -430,7 +465,27 @@ h2 {
     0%       { transform: translatex(300px)}
     100%     { transform: translatex(0px) }
 }
-
+.font-pulse {
+    -webkit-animation: fontpulse 5s infinite alternate;
+    -moz-animation: fontpulse 5s infinite alternate;
+    animation: fontpulse 5s infinite alternate;
+}
+@-webkit-keyframes fontpulse {
+    0% {
+    color: darkblue;
+    }
+    100% {
+    color: black;
+    }
+}
+@keyframes fontpulse {
+    0% {
+    color: darkblue;
+    }
+    100% {
+    color: black;
+    }
+}
 .breathe {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
