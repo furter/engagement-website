@@ -14,271 +14,6 @@ div {
 
 /* liens vers la typo */
 @font-face {
-    font-family: 'cambaybold';
-    src: url('fonts/cambay-bold-webfont.woff2') format('woff2'),
-         url('fonts/cambay-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cambaybold_italic';
-    src: url('fonts/cambay-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/cambay-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cambayitalic';
-    src: url('fonts/cambay-italic-webfont.woff2') format('woff2'),
-         url('fonts/cambay-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'cambayregular';
-    src: url('fonts/cambay-regular-webfont.woff2') format('woff2'),
-         url('fonts/cambay-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'signika';
-    src: url('fonts/signika-bold-webfont.woff2') format('woff2'),
-         url('fonts/signika-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'khulabold';
-    src: url('fonts/khula-bold-webfont.woff2') format('woff2'),
-         url('fonts/khula-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'khulaextrabold';
-    src: url('fonts/khula-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/khula-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'khulalight';
-    src: url('fonts/khula-light-webfont.woff2') format('woff2'),
-         url('fonts/khula-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'khularegular';
-    src: url('fonts/khula-regular-webfont.woff2') format('woff2'),
-         url('fonts/khula-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'khulasemibold';
-    src: url('fonts/khula-semibold-webfont.woff2') format('woff2'),
-         url('fonts/khula-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'tauriregular';
-    src: url('fonts/tauri-regular-webfont.woff2') format('woff2'),
-         url('fonts/tauri-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenobold';
-    src: url('fonts/truenobd-webfont.woff2') format('woff2'),
-         url('fonts/truenobd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenobold_italic';
-    src: url('fonts/truenobdit-webfont.woff2') format('woff2'),
-         url('fonts/truenobdit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenobold_outline';
-    src: url('fonts/truenobdol-webfont.woff2') format('woff2'),
-         url('fonts/truenobdol-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenobold_outline_italic';
-    src: url('fonts/truenobdolit-webfont.woff2') format('woff2'),
-         url('fonts/truenobdolit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoblack';
-    src: url('fonts/truenoblk-webfont.woff2') format('woff2'),
-         url('fonts/truenoblk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoblack_italic';
-    src: url('fonts/truenoblkit-webfont.woff2') format('woff2'),
-         url('fonts/truenoblkit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoblack_outline';
-    src: url('fonts/truenoblkol-webfont.woff2') format('woff2'),
-         url('fonts/truenoblkol-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoblack_outline_italic';
-    src: url('fonts/truenoblkolit-webfont.woff2') format('woff2'),
-         url('fonts/truenoblkolit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoextrabold';
-    src: url('fonts/truenoexbd-webfont.woff2') format('woff2'),
-         url('fonts/truenoexbd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoextrabold_italic';
-    src: url('fonts/truenoexbdit-webfont.woff2') format('woff2'),
-         url('fonts/truenoexbdit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoextrabold_outline';
-    src: url('fonts/truenoexbdol-webfont.woff2') format('woff2'),
-         url('fonts/truenoexbdol-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoXBdoutlineIt';
-    src: url('fonts/truenoexbdolit-webfont.woff2') format('woff2'),
-         url('fonts/truenoexbdolit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenolight';
-    src: url('fonts/truenolt-webfont.woff2') format('woff2'),
-         url('fonts/truenolt-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenolight_italic';
-    src: url('fonts/truenoltit-webfont.woff2') format('woff2'),
-         url('fonts/truenoltit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoregular';
-    src: url('fonts/truenorg-webfont.woff2') format('woff2'),
-         url('fonts/truenorg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'truenoregular_italic';
-    src: url('fonts/truenorgit-webfont.woff2') format('woff2'),
-         url('fonts/truenorgit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'truenosemibold';
-    src: url('fonts/truenosbd-webfont.woff2') format('woff2'),
-         url('fonts/truenosbd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenosemibold_italic';
-    src: url('fonts/truenosbdit-webfont.woff2') format('woff2'),
-         url('fonts/truenosbdit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoultralight';
-    src: url('fonts/truenoultlt-webfont.woff2') format('woff2'),
-         url('fonts/truenoultlt-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'truenoultralight_italic';
-    src: url('fonts/truenoultltit-webfont.woff2') format('woff2'),
-         url('fonts/truenoultltit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pt_sansbold';
-    src: url('fonts/pt_sans-web-bold-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-web-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'pt_sansbold_italic';
-    src: url('fonts/pt_sans-web-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-web-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pt_sansitalic';
-    src: url('fonts/pt_sans-web-italic-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-web-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pt_sansregular';
-    src: url('fonts/pt_sans-web-regular-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-web-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pt_sans_captionbold';
-    src: url('fonts/pt_sans-caption-web-bold-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-caption-web-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pt_sans_captionregular';
-    src: url('fonts/pt_sans-caption-web-regular-webfont.woff2') format('woff2'),
-         url('fonts/pt_sans-caption-web-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'hindbold';
     src: url('fonts/hind-bold-webfont.woff2') format('woff2'),
          url('fonts/hind-bold-webfont.woff') format('woff');
@@ -315,10 +50,7 @@ div {
 }
 
 body {
-    font-family: 'hindsemibold'; /* pt_sans_captionregular truenoregular khularegular tauriregular */
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
-    font-size: 20px;
+    font-family: 'hindsemibold';
     color: darkblue;
 }
 .alt-font {
@@ -332,11 +64,31 @@ a, a:visited, a:focus {
     text-decoration: none;
     color: darkblue;
 }
+li {
+    list-style: none;
+}
 h2 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 65px;
+    line-height:74px;
+    font-weight: normal;
+    font-family: "hindsemibold";
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 25px;
     font-weight: normal;
     text-transform: uppercase;
+    font-family: "hindsemibold";
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+p {
+    font-family: "hindmedium";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
 .menu {
     position: fixed;
@@ -355,6 +107,7 @@ h2 {
     margin-right: 30px;
 }
 .main-content {
+    font-family: "hindsemibold";
     font-size: 65px;
     line-height:74px;
 }
@@ -372,11 +125,6 @@ h2 {
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
-.text {
-    font-family: "cambayregular";
-    font-size: 20px;
-    line-height: 23px;
 }
 .grid {
     margin-top: 35px;
@@ -398,13 +146,14 @@ h2 {
 .whole {
     width: 100%;
 }
-.red {
+.white-to-blue {
     background: linear-gradient(90deg, white 0%, #1fc8db 100%);
-    /* background-color: #ffb1b1; */
 }
-.blue {
+.yellow-to-blue {
     background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
-    /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+}
+.white-to-grey {
+    background: linear-gradient(120deg, lightgrey 50%, white 100%);
 }
 .yellow {
     background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
@@ -539,25 +288,22 @@ svg {
 
 /* STATEMENT-SIGNATURES */
 #statement {
-    width: 66%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 80px 50px 20px 20px;
-    margin-left: 33%;
+    padding: 40px 50px 20px 20px;
 }
 #statement p {
-    font-family: "cambayregular";
-    line-height: 30px;
+    font-family: "hindmedium";
+    margin-bottom: 20px;
 }
 #signatures {
-    position: absolute;
-    width: 33%;
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 40px;
     top: 40px;
 }
-li {
-  list-style: none;
+#signatures li {
+    font-family: "hindmedium";
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 /* CONTACT */
