@@ -1,0 +1,157 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'cambaybold';
+    src: url('fonts/cambay-bold-webfont.woff2') format('woff2'),
+         url('fonts/cambay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambaybold_italic';
+    src: url('fonts/cambay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/cambay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambayitalic';
+    src: url('fonts/cambay-italic-webfont.woff2') format('woff2'),
+         url('fonts/cambay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambayregular';
+    src: url('fonts/cambay-regular-webfont.woff2') format('woff2'),
+         url('fonts/cambay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+}
+.content-whole-page {
+    width: 100%;
+    margin: 80px 20px 20px 20px;
+}
+.tool a {
+    text-decoration: underline;
+}
+/*
+.tool {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+}*/
+/*.tool:nth-child(even) {
+    background: linear-gradient(90deg, #ffff96 0%, #ffb1b1 100%);
+    padding: 20px;
+}
+.tool:nth-child(odd) {
+    background: linear-gradient(90deg, #ffb1b1 0%, #ffff96 100%);
+    padding: 20px;
+}*/
+.no-max {
+    max-height: none;
+}
+.tool-title {
+    margin: 30px 0 10px 0;
+    font-size: 28px;
+    line-height: 33px;
+}
+.tool .text {
+}
+.tool-link {
+}
+.tool-content {
+}
+.tool-document {
+}
+
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 800px) {
+    .grid-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* IMPRESSION */
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}
+
+
+.tool .number {
+  font-size: 16pt;
+  vertical-align: -0.07em;
+  font-weight: initial;
+}
+.tool li {
+  font-family: "hindmedium";
+  font-size: 20px;
+  line-height: 24px;
+}
+/*.tool-content{
+  padding-left: 46px;
+}*/
+.tool-content ul{
+  padding-left: 24px;
+}
+
+.tool h4 {
+      margin-top: 18px;
+}
+ .tool li {
+   list-style: none;
+ }
+ .tool li::before {
+   content: "— ";
+ }

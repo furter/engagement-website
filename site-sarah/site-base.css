@@ -1,0 +1,377 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'hindbold';
+    src: url('fonts/hind-bold-webfont.woff2') format('woff2'),
+         url('fonts/hind-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindlight';
+    src: url('fonts/hind-light-webfont.woff2') format('woff2'),
+         url('fonts/hind-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindmedium';
+    src: url('fonts/hind-medium-webfont.woff2') format('woff2'),
+         url('fonts/hind-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindregular';
+    src: url('fonts/hind-regular-webfont.woff2') format('woff2'),
+         url('fonts/hind-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hindsemibold';
+    src: url('fonts/hind-semibold-webfont.woff2') format('woff2'),
+         url('fonts/hind-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'hindsemibold';
+    color: darkblue;
+}
+.alt-font {
+    cursor: pointer;
+}
+.font-alt {
+    font-family: 'junction';
+    letter-spacing: 1px;
+}
+a, a:visited, a:focus {
+    text-decoration: none;
+    color: darkblue;
+}
+li {
+    list-style: none;
+}
+h2 {
+    font-size: 65px;
+    line-height:74px;
+    font-weight: normal;
+    font-family: "hindsemibold";
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: "hindbold";
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+h4 {
+  font-family: "hindsemibold";
+  font-size: 20px;
+  line-height: 24px;
+}
+p {
+    font-family: "hindmedium";
+    font-size: 20px;
+    line-height: 24px;
+    /*margin-bottom: 20px;*/
+}
+p + p {
+      text-indent: 46px;
+      margin-top: 9px;
+}
+.menu {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #FFFF96;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    height: 25px;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.main-content {
+    font-family: "hindsemibold";
+    font-size: 65px;
+    line-height:74px;
+}
+.main-content-alt {
+    font-size: 63px;
+    line-height:73px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.main-content a {
+    text-decoration: none;
+    color: darkblue;
+}
+.category {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.grid {
+    margin-top: 35px;
+}
+.grid-item {
+    height: 70vh;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 50px;
+    position: relative;
+}
+.half-grid-container, .whole-grid-container, .one-third-grid-container {
+  padding: 0px;
+  height: inherit;
+}
+.one-third {
+    width: 33%;
+}
+.grid-small-container {
+  margin-top: 40vh;
+}
+.two-third {
+    width: 67%;
+}
+.half {
+    width: 50%;
+}
+.whole {
+    width: 100%;
+}
+.white-to-blue {
+    background: linear-gradient(90deg, white 0%, #1fc8db 100%);
+}
+.yellow-to-blue {
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+}
+.white-to-grey {
+    background: linear-gradient(120deg, lightgrey 50%, white 100%);
+}
+.yellow {
+    background: linear-gradient(180deg, #ffff96 0%, #1fc8db 100%);
+    /* background-color: #ffff96; */
+}
+.lightyellow {
+    background-color: #FFFF96;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 0px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #ffb1b1;
+    margin: -20px -20px;
+}
+.circle {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.square {
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.triangle-shape {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid darkblue;
+}
+.big {
+    width: 250px;
+    height: 250px;
+}
+/* ANIMATIONS */
+.move1 {
+    animation: move-me 10s;
+}
+.move2 {
+    animation: move-me 20s;
+}
+.move3 {
+    animation: move-me 30s;
+}
+@-webkit-keyframes move-me {
+    0%       { transform: translatex(300px)}
+    100%     { transform: translatex(0px) }
+}
+@keyframes move-me {
+    0%       { transform: translatex(300px)}
+    100%     { transform: translatex(0px) }
+}
+.font-pulse {
+    -webkit-animation: fontpulse 5s infinite alternate;
+    -moz-animation: fontpulse 5s infinite alternate;
+    animation: fontpulse 5s infinite alternate;
+}
+@-webkit-keyframes fontpulse {
+    0% {
+    color: darkblue;
+    }
+    100% {
+    color: black;
+    }
+}
+@keyframes fontpulse {
+    0% {
+    color: darkblue;
+    }
+    100% {
+    color: black;
+    }
+}
+.breathe {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: breathe 3s infinite linear alternate-reverse;
+    -moz-animation: breathe 3s infinite linear alternate-reverse;
+    animation: breathe 3s infinite linear alternate-reverse;
+}
+@-webkit-keyframes breathe {
+  to {-webkit-transform: scale(1.2);}
+}
+@-moz-keyframes breathe {
+  to {-moz-transform: scale(1.2);}
+}
+@keyframes breathe {
+  to {transform: scale(1.2);}
+}
+.spin {
+    animation: spin 30s;
+}
+@-webkit-keyframes spin {
+    0%       { transform: rotate(0deg)}
+    100%     { transform: rotate(360deg) }
+}
+@keyframes move {
+    0%       { transform: rotate(0deg)}
+    100%     { transform: rotate(360deg) }
+}
+
+svg {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
+.content-left {
+    width: 50%;
+    margin: 80px 20px 20px 20px;
+}
+.title {
+    font-size: 90px;
+    line-height: 85px;
+}
+.content-right-bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 50%;
+    margin: 80px 20px 20px 20px;
+}
+
+/* STATEMENT-SIGNATURES */
+#statement {
+    padding: 40px 50px 20px 20px;
+}
+#statement p {
+    font-family: "hindmedium";
+line-height: 24px;
+}
+#statement p + h3 {
+    margin-top: 43px;
+  }
+#signatures {
+    padding: 20px;
+    padding-top: 40px;
+    top: 40px;
+}
+#signatures li {
+    font-family: "hindsemibold";
+    /*margin-bottom: 20px;*/
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: circle;
+    margin-left: 17px;
+}
+
+
+
+/* CONTACT */
+.triangle-bkg-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    border-right: 150vh solid transparent;
+    border-top: 100vh solid #ffff96;
+    z-index: -1;
+}
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 800px) {
+    .grid-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* IMPRESSION */
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

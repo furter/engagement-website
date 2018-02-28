@@ -1,0 +1,130 @@
+#main{
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.menu {
+      background-color: yellow;
+      padding-left: 12px;
+padding-top: 3px;
+}
+#satements {
+  width: 65%;
+  position: relative;
+  float: left;
+}
+
+#signature {
+  width: 25%;
+  float: left;
+  padding: 20px;
+    padding-left: 45px;
+    background-color: #ffb380;
+    position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+background-image: url(signatures.png);
+background-size: 100%;
+background-repeat: no-repeat;
+    background-repeat: no-repeat;
+        padding-top: 200px;
+        background-position: 0px -125px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+    font-family: 'cambaybold';
+}
+}
+
+.not-surprised {
+  /*box-shadow: -4px 5px 0 1px #0000FF, 2px -3px 0 1px #0000FF;
+      background-color: #FF6600;
+      color: white;*/
+}
+.we {
+  border-color: #3E3EFF;
+  background-color: #EDEDED;
+  box-shadow: 5px 5px 0px #3E3EFF;
+  margin: 10px 0 10px 0;
+
+}
+.artist {
+  background-color: orange;
+  outline: 7px solid white;
+
+}
+.under-not-surprised{
+
+  /*width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid blue;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid blue;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
+  z-index: -100;
+  position: absolute;*/
+
+}
+
+.under-not-surprised::before {
+  /*width: 0%;
+  height: 0;
+  border-left: 82px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 23px solid red;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+*/
+
+  /*content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  border: 18px solid #e1cb95;
+  border-radius: 100%;
+  width: 60px;
+  height: 12px;
+  background-color: #e1cb95;*/
+}
+.under-not-surprised::after {
+/*
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: #eee;
+    border: 18px solid #e1cb95;
+    border-radius: 100%;
+    width: 60px;
+    height: 12px;*/
+}
+body {
+  background-color:  #e1cb95;
+}
+li {
+  list-style: none;
+}
+#signature li {
+      font-size: 0.8em;
+}
+#signature li::before {
+  content: "•";
+  padding: 3pt;
+  padding-right: 5pt;
+  padding-left: 3pt;
+vertical-align: bottom;
+}
