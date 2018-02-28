@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-5500.6188"
-     inkscape:cy="418.16323"
+     inkscape:cx="-5663.7584"
+     inkscape:cy="256.53882"
      inkscape:document-units="px"
-     inkscape:current-layer="g7410"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1362"
      inkscape:window-height="723"
@@ -884,7 +884,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2254,7 +2254,7 @@
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:hind;-inkscape-font-specification:'hind Medium'"
            id="flowSpan5726">rond seksisme        </flowSpan><flowSpan
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:hind;-inkscape-font-specification:'hind Semi-Bold';fill:#00008b"
-           id="flowSpan5621-2-0-9"></flowSpan></flowPara><flowPara
+           id="flowSpan5621-2-0-9" /></flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:18px;line-height:114.99999762%;font-family:hind;-inkscape-font-specification:'hind Semi-Bold'"
          id="flowPara5766"><flowSpan
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:hind;-inkscape-font-specification:'hind Semi-Bold';fill:#00008b"
@@ -2262,7 +2262,7 @@
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:hind;-inkscape-font-specification:'hind Medium'"
            id="flowSpan5728"> wilt een dialoog opbouwen omtrent seksisme      </flowSpan><flowSpan
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:hind;-inkscape-font-specification:'hind Semi-Bold';fill:#00008b"
-           id="flowSpan5656-1-9-1"></flowSpan></flowPara><flowPara
+           id="flowSpan5656-1-9-1" /></flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:18px;line-height:114.99999762%;font-family:hind;-inkscape-font-specification:'hind Semi-Bold'"
          id="flowPara5773"><flowSpan
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:hind;-inkscape-font-specification:'hind Semi-Bold';fill:#00008b"
@@ -2350,7 +2350,7 @@
    style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:Hind;-inkscape-font-specification:'Hind Semi-Bold';fill:#00008b;fill-opacity:1"
    id="flowSpan6144">      ENGAGEMENT</flowSpan> staat voor gelijke kansen      <flowSpan
    style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:Hind;-inkscape-font-specification:'Hind Semi-Bold';fill:#00008b;fill-opacity:1"
-   id="flowSpan5680-0-7-5-3"></flowSpan></flowPara><flowPara
+   id="flowSpan5680-0-7-5-3" /></flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:18px;line-height:114.99999762%;font-family:Hind;-inkscape-font-specification:'Hind Medium'"
          id="flowPara6147"><flowSpan
    style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15px;font-family:Hind;-inkscape-font-specification:'Hind Semi-Bold';fill:#00008b;fill-opacity:1"
@@ -3189,6 +3189,14 @@
        id="path6242"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />
+    <path
+       style="display:inline;opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -5836.2019,761.86172 c -8.5714,38.27026 -25.4614,54.88339 -53.7745,45.91735 -22.5559,-7.14291 -53.7744,-16.21855 -53.7744,-45.91735 0,-29.69879 23.3613,-45.91729 53.7744,-53.77448 28.7547,-7.42875 60.2654,24.79364 53.7745,53.77448 z"
+       id="path4131"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-xdpi="400"
+       inkscape:export-ydpi="400" />
   </g>
   <g
      inkscape:groupmode="layer"

@@ -127,3 +127,31 @@ body {
     size: 210mm 297mm;
     margin: none;
 }
+
+
+.tool .number {
+  font-size: 16pt;
+  vertical-align: -0.07em;
+  font-weight: initial;
+}
+.tool li {
+  font-family: "hindmedium";
+  font-size: 20px;
+  line-height: 24px;
+}
+/*.tool-content{
+  padding-left: 46px;
+}*/
+.tool-content ul{
+  padding-left: 24px;
+}
+
+.tool h4 {
+      margin-top: 18px;
+}
+ .tool li {
+   list-style: none;
+ }
+ .tool li::before {
+   content: "— ";
+ }

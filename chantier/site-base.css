@@ -72,32 +72,23 @@ h2 {
     line-height:74px;
     font-weight: normal;
     font-family: "hindsemibold";
-    margin-bottom: 4px;
+    margin-bottom: 20px;
     letter-spacing: 1px;
 }
 h3 {
-    font-size: 19px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 25px;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: "hindbold";
-    margin-bottom: 6px;
+    font-family: "hindsemibold";
+    margin-bottom: 15px;
     letter-spacing: 1px;
-}
-h4 {
-  font-family: "hindsemibold";
-  font-size: 20px;
-  line-height: 24px;
 }
 p {
     font-family: "hindmedium";
     font-size: 20px;
-    line-height: 24px;
-    /*margin-bottom: 20px;*/
-}
-p + p {
-      text-indent: 46px;
-      margin-top: 9px;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
 .menu {
     position: fixed;
@@ -146,21 +137,11 @@ p + p {
     padding-top: 50px;
     position: relative;
 }
-.half-grid-container, .whole-grid-container, .one-third-grid-container {
-  padding: 0px;
-  height: inherit;
-}
 .one-third {
     width: 33%;
 }
-.grid-small-container {
-  margin-top: 40vh;
-}
 .two-third {
     width: 67%;
-}
-.half {
-    width: 50%;
 }
 .whole {
     width: 100%;
@@ -311,26 +292,19 @@ svg {
 }
 #statement p {
     font-family: "hindmedium";
-line-height: 24px;
+    margin-bottom: 20px;
 }
-#statement p + h3 {
-    margin-top: 43px;
-  }
 #signatures {
     padding: 20px;
     padding-top: 40px;
     top: 40px;
 }
 #signatures li {
-    font-family: "hindsemibold";
-    /*margin-bottom: 20px;*/
-    font-size: 14px;
-    line-height: 20px;
-    list-style-type: circle;
-    margin-left: 17px;
+    font-family: "hindmedium";
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
 }
-
-
 
 /* CONTACT */
 .triangle-bkg-contact {
