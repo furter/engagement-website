@@ -11,7 +11,7 @@
     <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
 </head>
 <body style="background: linear-gradient(90deg, white 0%, #1fc8db 100%);">
-    <ul class="menu" style="width: auto">
+    <ul class="menu menu-contact">
         <li><a href="site-base.html">ENGAGEMENT</a></li>
         <li><a href="statement-signatures.html">sign statement</a></li>
         <li><a href="tools.html">tools</a></li>
@@ -21,7 +21,8 @@
 <div class="content-left">
     <h2>about</h2>
     <p>Engagement is an artist-lead movement tackling sexual harassment, sexism and power abuse in the Belgian arts field</p>
-    <p>+ design and font</p>
+    <h3>Credits</h3>
+    <p class="credits">This website was designed with care by Sarah Magnan and Loraine Furter, from the collective Just for the record, with the open source font Hind, designed by Manushi Parikh.</p>
 </div>
 <div class="content-right-bottom">
     <h2>contact</h2>
@@ -31,13 +32,11 @@
 
 
 <!-- DANS SCRIPTS METTEZ VOS SCRIPTS :)-->
-    <script>
-        /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
-        $('.alt-font').click(function() {
-          $('body').toggleClass("font-alt");
-          $('h2').toggleClass("font-alt");
-        });
-    </script>
+<script src="scripts/jquery-smooth-scroll.js"></script>
+<script>
+    /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
+     $('a').smoothScroll();
+</script>
 
 </body>
 </html>

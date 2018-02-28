@@ -49,19 +49,13 @@ div {
     font-style: normal;
 }
 
+/* GENERAL STYLES */
 body {
     font-family: 'hindsemibold';
     color: darkblue;
 }
-.alt-font {
-    cursor: pointer;
-}
-.font-alt {
-    font-family: 'junction';
-    letter-spacing: 1px;
-}
 a, a:visited, a:focus {
-    text-decoration: none;
+    text-decoration: underline;
     color: darkblue;
 }
 li {
@@ -83,6 +77,7 @@ h3 {
     font-family: "hindbold";
     margin-bottom: 6px;
     letter-spacing: 1px;
+    padding-top: 43px;
 }
 h4 {
   font-family: "hindsemibold";
@@ -99,6 +94,8 @@ p + p {
       text-indent: 46px;
       margin-top: 9px;
 }
+
+/* MENU */
 .menu {
     position: fixed;
     z-index: 1000;
@@ -115,26 +112,11 @@ p + p {
     display: inline-block;
     margin-right: 30px;
 }
-.main-content {
-    font-family: "hindsemibold";
-    font-size: 65px;
-    line-height:74px;
-}
-.main-content-alt {
-    font-size: 63px;
-    line-height:73px;
-    font-weight: bold;
-    margin-bottom: 80px;
-}
-.main-content a {
+.menu a {
     text-decoration: none;
-    color: darkblue;
 }
-.category {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
+
+/* GRID */
 .grid {
     margin-top: 35px;
 }
@@ -143,18 +125,38 @@ p + p {
     float: left;
     overflow: hidden;
     padding: 20px;
-    padding-top: 50px;
     position: relative;
 }
 .half-grid-container, .whole-grid-container, .one-third-grid-container {
-  padding: 0px;
-  height: inherit;
+    padding: 0px;
+    height: inherit;
 }
+.title {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.title ul {
+    margin-top: 20px;
+}
+.title li {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "hindmedium";
+}
+.title li::before {
+    content: "⤷";
+    padding: 3pt;
+    padding-right: 5pt;
+    padding-left: 3pt;
+    vertical-align: bottom;
+}
+
+/* SIZES */
 .one-third {
     width: 33%;
 }
 .grid-small-container {
-  margin-top: 40vh;
+    margin-top: 40vh;
 }
 .two-third {
     width: 67%;
@@ -165,6 +167,8 @@ p + p {
 .whole {
     width: 100%;
 }
+
+/* COLORS */
 .white-to-blue {
     background: linear-gradient(90deg, white 0%, #1fc8db 100%);
 }
@@ -181,15 +185,8 @@ p + p {
 .lightyellow {
     background-color: #FFFF96;
 }
-.triangle {
-    width: 0;
-    height: 0;
-    display: inline-block;
-    border-left: 0px solid transparent;
-    border-right: 500px solid transparent;
-    border-bottom: 500px solid #ffb1b1;
-    margin: -20px -20px;
-}
+
+/* SHAPES */
 .circle {
     border-radius: 50%;
     width: 110px;
@@ -203,18 +200,34 @@ p + p {
     display: inline-block;
     margin-right: 10px;
 }
-.triangle-shape {
+.big {
+    width: 250px;
+    height: 250px;
+}
+/* .triangle-shape {
     width: 0;
     height: 0;
     display: inline-block;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     border-bottom: 100px solid darkblue;
+} */
+/* .triangle {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 0px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #ffb1b1;
+    margin: -20px -20px;
+} */
+.sand {
+    width: 100%;
 }
-.big {
-    width: 250px;
-    height: 250px;
+.shapes-absolute {
+    position: absolute;
 }
+
 /* ANIMATIONS */
 .move1 {
     animation: move-me 10s;
@@ -240,18 +253,18 @@ p + p {
 }
 @-webkit-keyframes fontpulse {
     0% {
-    color: darkblue;
+        color: darkblue;
     }
     100% {
-    color: black;
+        color: black;
     }
 }
 @keyframes fontpulse {
     0% {
-    color: darkblue;
+        color: darkblue;
     }
     100% {
-    color: black;
+        color: black;
     }
 }
 .breathe {
@@ -263,13 +276,13 @@ p + p {
     animation: breathe 3s infinite linear alternate-reverse;
 }
 @-webkit-keyframes breathe {
-  to {-webkit-transform: scale(1.2);}
+    to {-webkit-transform: scale(1.2);}
 }
 @-moz-keyframes breathe {
-  to {-moz-transform: scale(1.2);}
+    to {-moz-transform: scale(1.2);}
 }
 @keyframes breathe {
-  to {transform: scale(1.2);}
+    to {transform: scale(1.2);}
 }
 .spin {
     animation: spin 30s;
@@ -282,40 +295,56 @@ p + p {
     0%       { transform: rotate(0deg)}
     100%     { transform: rotate(360deg) }
 }
-
+/* SVG SHAPE ON MAIN PAGE */
 svg {
   width: 80%;
   height: 80%;
   margin: 10%;
 }
-
+/* POSITION SHAPES IN THE BOXES */
 .content-left {
     width: 50%;
     margin: 80px 20px 20px 20px;
 }
-.title {
-    font-size: 90px;
-    line-height: 85px;
-}
 .content-right-bottom {
     position: absolute;
     right: 0px;
-    bottom: 0;
+    bottom: 20px;
     width: 50%;
-    margin: 80px 20px 20px 20px;
+    padding: 80px 20px 20px 20px;
 }
 
-/* STATEMENT-SIGNATURES */
+
+
+/* SPECIFIC STYLES > PAGES */
+
+
+/* MAIN PAGE */
+.main-content {
+    font-family: "hindsemibold";
+    font-size: 65px;
+    line-height:73px;
+    margin: 20px 0px 0px 20px;
+}
+.main-content a {
+    text-decoration: none;
+    color: darkblue;
+}
+.font-pulse {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "hindbold";
+    letter-spacing: 1px;
+}
+
+/* PAGE SIGN STATEMENT */
 #statement {
     padding: 40px 50px 20px 20px;
 }
 #statement p {
     font-family: "hindmedium";
-line-height: 24px;
+    line-height: 24px;
 }
-#statement p + h3 {
-    margin-top: 43px;
-  }
 #signatures {
     padding: 20px;
     padding-top: 40px;
@@ -323,16 +352,56 @@ line-height: 24px;
 }
 #signatures li {
     font-family: "hindsemibold";
-    /*margin-bottom: 20px;*/
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
     list-style-type: circle;
     margin-left: 17px;
 }
+#signature li::before {
+    content: "•";
+    padding: 3pt;
+    padding-right: 5pt;
+    padding-left: 3pt;
+    vertical-align: bottom;
+}
 
+/* PAGE  TOOLS */
+.tool a {
+    text-decoration: underline;
+}
+.no-max {
+    max-height: none;
+}
+.tool-title {
+    margin: 30px 0 10px 0;
+    font-size: 28px;
+    line-height: 33px;
+}
+.tool .number {
+    font-size: 16pt;
+    vertical-align: -0.07em;
+    font-weight: initial;
+}
+.tool li {
+    font-family: "hindmedium";
+    font-size: 20px;
+    line-height: 24px;
+    list-style: none;
+}
+.tool-content ul{
+    padding-left: 24px;
+}
+.tool h4 {
+    margin-top: 18px;
+}
+.tool li::before {
+    content: "— ";
+}
 
-
-/* CONTACT */
+/* PAGE ABOUT/CONTACT */
+.menu-contact {
+    width: auto;
+}
 .triangle-bkg-contact {
     position: absolute;
     top: 0;
@@ -342,6 +411,19 @@ line-height: 24px;
     border-top: 100vh solid #ffff96;
     z-index: -1;
 }
+.credits {
+    font-size: 15px;
+    line-height: 17px;
+    text-indent: 0px;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
 
 /* RESPONSIVE */
 
@@ -354,7 +436,68 @@ line-height: 24px;
 
 /* ÉCRAN (VALEURS MAXIMUM) */
 @media screen and (max-width: 800px) {
+    .no-mobile {
+        display: none;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .menu {
+        height: 50px;
+    }
+    .menu li {
+        line-height: 20px;
+        margin-right: 40px;
+    }
+    .menu-contact {
+        width: 100%;
+    }
+    .title {
+        padding: 80px 20px 20px 20px;
+    }
+    .main-content {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .font-pulse {
+        font-size: 32px;
+    }
     .grid-item {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .shapes-absolute {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+    .circle {
+        width: 13vw;
+        height: 13vw;
+        margin-right: 4px;
+    }
+    .square {
+        width: 12vw;
+        height: 12vw;
+        margin-right: 4px;
+    }
+    #statement, #signatures {
+        padding: 0px;
+    }
+    .content-left, .content-right-bottom {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 80px 20px 20px 20px;
+    }
+    .triangle-bkg-contact {
+        display: none;
+    }
+    .credits {
         width: 100%;
     }
 }
