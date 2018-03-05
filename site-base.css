@@ -109,7 +109,7 @@ p {
     font-size: 19px;
     line-height: 22px;
     /*margin-bottom: 20px;*/
-    margin-top: 9px;
+    margin-top: 16px;
 }
 p + p {
     /* text-indent: 46px; */
@@ -340,6 +340,10 @@ p + p {
     -webkit-animation: breathe 3s infinite linear alternate-reverse;
     -moz-animation: breathe 3s infinite linear alternate-reverse;
     animation: breathe 3s infinite linear alternate-reverse;
+    position: absolute;
+    top: 110px;
+    right: 80px;
+    background: linear-gradient(120deg, lightgrey 50%, white 100%)
 }
 @-webkit-keyframes breathe {
     to {-webkit-transform: scale(1.2);}
@@ -519,6 +523,14 @@ svg {
         line-height: 20px;
         margin-right: 40px;
     }
+    .whole {
+          height: initial !important;
+          padding-bottom: 0pt !important;
+    }
+    .grid-small-container{
+          margin-top: 0pt;
+              height: initial !important;
+    }
     .menu-contact {
         width: 100%;
     }
@@ -532,11 +544,16 @@ svg {
     .font-pulse {
         font-size: 32px;
     }
+    .grid {
+          /*margin-top: 70px;*/
+    }
     .grid-item {
         width: 100%;
-        height: auto;
+        height: 50vh;
+        min-height: 300px;
         padding-bottom: 40px;
     }
+    .
     .shapes-absolute {
         position: relative;
         top: 0;
@@ -547,6 +564,11 @@ svg {
     .circle {
         width: 13vw;
         height: 13vw;
+        margin-right: 4px;
+    }
+    .circle.breathe {
+        width: 40vw;
+        height: 40vw;
         margin-right: 4px;
     }
     .square {
