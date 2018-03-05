@@ -491,7 +491,9 @@ svg {
     line-height: 20px;
 }
 
-
+.mobile {
+  display: none;
+}
 
 
 
@@ -512,6 +514,9 @@ svg {
     .no-mobile {
         display: none;
     }
+    .mobile {
+      display: inherit;
+    }
     h2 {
         font-size: 45px;
         line-height: 48px;
@@ -526,6 +531,10 @@ svg {
     .whole {
           height: initial !important;
           padding-bottom: 0pt !important;
+    }
+    .whole-grid-container {
+      max-height: fit-content;
+
     }
     .grid-small-container{
           margin-top: 0pt;
